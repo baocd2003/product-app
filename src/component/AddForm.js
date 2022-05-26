@@ -5,6 +5,7 @@ import { useDispatch } from "react-redux";
 import {addProduct} from '../redux/act'
 import {toast, ToastContainer} from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css';
+import './AddForm.css'
 import {useNavigate} from 'react-router-dom'
 function AddForm  ()  {
   const [title,setTitle] = useState('');
@@ -88,25 +89,25 @@ function AddForm  ()  {
       draggable
       pauseOnHover
     />
-      <div className = 'title'>
+      <div className = 'title' id = 'item'>
         <label>Title</label>
         <input value = {title} onChange = {handleChangeTitle}/>
       </div>
-      <div className = 'amount'>
+      <div className = 'amount' id = 'item'>
        <label>Total Amount</label> 
         <input value = {totalAmount} onChange = {handleChangeAmount}/>
       </div>
-      <div className = 'todayAmount'>
+      <div className = 'todayAmount' id = 'item'>
         <label>Today Amount</label>
         <input value = {todayAmount} onChange = {handleTodayAmount}/>
       </div>
-      <div className = 'category-container'>
+      <div className = 'category-container'id = 'item'>
         <div className = 'category'>
           <div className = 'cat-dropdown' onClick = {openDrop}>
             <label>{category ? category.category : 'Category'}</label>
             <FaCaretDown/>
           </div>
-          {catOpen && (<div className = 'cat-container'>
+          {catOpen && (<div className = 'cat-container' id = 'item'>
             {categories.map(e => (
               <div className = 'cat-item' key = {e.id} onClick = {() => handleCategory(e)}>
                 <label>{e.category}</label>

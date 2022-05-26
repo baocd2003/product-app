@@ -19,7 +19,7 @@ const NavSearch = () => {
 		{window.location.pathname === '/'?
 		<div className="nav-search">
 			<div className = 'search-bar'>
-			<FaSearch/>
+			<div className = 'search-icon'><FaSearch/></div>
 			<input 
 				value = {query}
 				placeholder="Search for product"
@@ -48,10 +48,6 @@ const NavSearch = () => {
 					</label>
 				</div>
 				</Link>
-				<div className = 'cancel-but'>
-					<FaWindowClose/>
-					<label>Cancel</label>
-				</div>
 			</div>
 		)}	
 		</>

@@ -1,6 +1,7 @@
 .card{
 	display: flex;
 	justify-content:space-between;
+	margin: 20px;
 }
 
 .cardInfo{
@@ -11,4 +12,19 @@
 .card-amount{
 	display:flex;
 	flex-direction:column-reverse;
+	width:200px;
+	text-align:center
+}
+
+.card-amount 
+.card-amount input {
+	width:100px;
+}
+.delete{
+	cursor: pointer;
+	text-align: center
+}
+
+.cardInfo .time {
+	color:orange;
 }

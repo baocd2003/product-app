@@ -1,5 +1,7 @@
 .home-container{
 	overflow:hidden;
 	border:1px solid black;
-	margin:50px 50px;
+	margin:50px 150px;
+	background:linear-gradient(to left,#bdc3c7,#2c3e50);
+	border-radius: 6px;
 }

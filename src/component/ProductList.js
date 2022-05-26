@@ -23,7 +23,7 @@ const ProductList = () =>  {
     />
      {needSearch.length ? needSearch.map(item => (
        <Card item = {item} deleteSuccess = {deleteSuccess} />
-     )):<div>abc</div>}
+     )):<div>Not Found</div>}
   </div>
   )}
 

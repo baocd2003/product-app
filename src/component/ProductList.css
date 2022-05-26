@@ -1,5 +1,8 @@
 .product-list{
 	display:flex;
 	flex-direction:column;
-	margin-bottom: 20px;
+	margin:30px;
+	border:1px solid black;
+	border-radius: 10px;
+	background:linear-gradient(to top,#d9a7c7,#fffcdc)
 }

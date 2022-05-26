@@ -3,7 +3,7 @@ import './Header.css'
 function Header  ()  {
   return (
 	<div className = 'header-container'>
-		<div>Header</div>
+		<div>Bao Product Management App</div>
 	</div>
   )
 }

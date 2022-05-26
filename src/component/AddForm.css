@@ -1,0 +1,40 @@
+.add-form{
+	margin:0 150px;
+	background:linear-gradient(to left,#C6FFDD,#FBD786,#f7797d);
+	padding: 20px;
+}
+
+#item{
+	margin-bottom: 20px;
+}
+
+#item label {
+	margin-right:10px;
+}
+.cat-dropdown label{
+	cursor: pointer;
+	transition: all 0.3s;
+}
+
+.cat-dropdown label:hover{
+	color:#FBD786
+}
+.cat-dropdown{
+	margin-bottom:10px;
+}
+
+.cat-item {
+	margin-bottom:10px;
+}
+.cat-item label {
+	cursor: pointer;
+}
+
+.form-add {
+	cursor: pointer;
+	transition: all 0.4s;
+}
+
+.form-add:hover{
+	color:antiquewhite
+}
