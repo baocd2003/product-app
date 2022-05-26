@@ -1,0 +1,14 @@
+.card{
+	display: flex;
+	justify-content:space-between;
+}
+
+.cardInfo{
+	display: flex;
+	flex-direction:column
+}
+
+.card-amount{
+	display:flex;
+	flex-direction:column-reverse;
+}
